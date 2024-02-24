@@ -1,4 +1,4 @@
-**README File For Building First Neural Network**
+**README File For Building Image Recognition Neural Network (MNIST DIGITS DATA)**
     
     *Image recognition neural network to identify digits from MNIST Dataset*
     
@@ -12,3 +12,5 @@
         
         b. **Train** --> Intakes the training dataset from train loader ; predicts image labels & optimizes losses. Also changes gradient values with optimizer function (Stochastic Gradient Descend)
         c. **Test** --> Intakes test dataset ; Without initiating any gradeints (preventing leakage), predicts image class. Calculates loss & accuracy, updates correctly tagged image count and prints accuracy for each batch
+
+    3. **S5.ipynb** --> Main file containing the overall implementation of the neural network. We call the defined training & test functions from this file & analyse the data as well as output of our network.
